@@ -1,0 +1,10 @@
+# FairLens Pro v2 — Performance Appraisal Auditor
+End-to-end demo: collect ratings + comments, audit bias in text, run fairness checks on ratings (mean gap, AIR), and export CSV. Privacy-first (no PII), aggregation n ≥ 5.
+
+## Run locally
+pip install -r requirements.txt
+streamlit run app.py
+
+## Deployed demo (Streamlit Cloud)
+- Create a public GitHub repo with these files.
+- Deploy at https://share.streamlit.io (Repo: <user>/fairlens-pro-v2, Branch: main, File: app.py)
